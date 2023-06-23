@@ -113,7 +113,7 @@
               <id>nexus</id>
               <name>RayCoy Solutions Releases Nexus Repository</name>
               <url>http://34.227.91.128:8081/repository/webapprelease/</url>
-            </repository
+            </repository>
 
             <snapshotRepository>
               <id>nexus</id>
