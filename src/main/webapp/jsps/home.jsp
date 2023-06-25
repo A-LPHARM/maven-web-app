@@ -13,7 +13,7 @@
 <h2 align="center"> Welcome to RayCoy Solutions. 
 	RayCoy Solutions is a an ideal online training  platform for DevOps and Cloud Engineers. 
 	We offer interview preparations and job assitance.
-	Building Future Leader in the field of DevOps/Cloud Computing. HERE SUCCESS IS GUARANTEED!</h2>
+	Building Future Leader in the field of DevOps/Cloud Computing. HERE SUCCESS IS A MUST!</h2>
 <hr>
 <div style="text-align: center;">
 	<span>
