@@ -5,7 +5,7 @@
         <groupId>com.mt</groupId>
         <artifactId>maven-web-application</artifactId>
         <packaging>war</packaging>
-        <version>3.1.0-SNAPSHOT</version>
+        <version>3.1.0</version>
 
         <name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
                 <spring.version>5.1.2.RELEASE</spring.version>
                 <junit.version>4.11</junit.version>
                 <log4j.version>1.2.17</log4j.version>
-                <sonar.host.url>http://52.86.168.223:9000/</sonar.host.url>
+                <sonar.host.url>http://3.90.65.147:9000/</sonar.host.url>
 				<sonar.login>admin</sonar.login>
 				<sonar.password>admin</sonar.password>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -112,13 +112,13 @@
             <repository>
               <id>nexus</id>
               <name>RayCoy Solutions Releases Nexus Repository</name>
-              <url>http://100.25.202.136:8081/repository/webapprelease/</url>
+              <url>http://54.90.1.141:8081/repository/webapprelease/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>RayCoy Solutions Snapshot Nexus Repository </name>
-              <url>http://100.25.202.136:8081/repository/webappsnapshot/</url>
+              <url>http://54.90.1.141:8081/repository/webappsnapshot/</url>
             </snapshotRepository>
 
         </distributionManagement>
