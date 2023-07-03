@@ -1,0 +1,23 @@
+node {
+    def mavenHome = tool name: 'maven'
+    stage('git checkout')
+    {
+      git 'https://github.com/A-LPHARM/maven-web-app'  
+    }
+    stage('build artifact')
+    {
+       sh "${mavenHome}/bin/mvn package" 
+    }
+    stage('code quality anaylsis')
+    {
+        sh "${mavenHome}/bin/mvn sonar:sonar"
+    }
+    stage('upload to nexus')
+    {
+        sh "${mavenHome}/bin/mvn deploy"
+    }
+    stage('tomcatdeploy')
+    {
+       deploy adapters: [tomcat9(credentialsId: 'devop', path: '', url: 'http://34.239.107.11:8080')], contextPath: 'web', war: 'target/*.war'
+    }  
+}
