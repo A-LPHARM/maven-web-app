@@ -112,13 +112,13 @@
             <repository>
               <id>nexus</id>
               <name>RayCoy Solutions Releases Nexus Repository</name>
-              <url>http://54.158.203.126:8081/repository/webapprelease/</url>
+              <url>http://18.208.195.81:8081/repository/webapprelease/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>RayCoy Solutions Snapshot Nexus Repository </name>
-              <url>http://54.158.203.126:8081/repository/webappsnapshot/</url>
+              <url>http://18.208.195.81:8081/repository/webappsnapshot/</url>
             </snapshotRepository>
 
         </distributionManagement>
